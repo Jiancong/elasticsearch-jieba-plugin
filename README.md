@@ -20,6 +20,8 @@ jieba analysis plugin for elasticsearch: ***7.7.0***, ***7.4.2***, ***7.3.0***, 
 
 - [thulac分词ES插件](https://github.com/microbun/elasticsearch-thulac-plugin)， [thulac官网](http://thulac.thunlp.org/)
 
+### 这个分支新增了针对ES6.5.4，和 ES6.8.8的支持
+
 
 ### 如果是ES6.4.0的版本，请使用6.4.0分支最新的代码，或者master分支最新代码，也可以下载6.4.1的release，强烈推荐升级！
 
