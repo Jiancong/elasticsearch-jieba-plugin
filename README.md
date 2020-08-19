@@ -1,11 +1,13 @@
 # elasticsearch-jieba-plugin
-jieba analysis plugin for elasticsearch: ***6.4.0***, ***6.0.0***, ***5.4.0***, ***5.3.0***, ***5.2.2***, ***5.2.1***, ***5.2.0***, ***5.1.2***, ***5.1.1***
+jieba analysis plugin for elasticsearch: ***6.5.4*** ***6.4.0***, ***6.0.0***, ***5.4.0***, ***5.3.0***, ***5.2.2***, ***5.2.1***, ***5.2.0***, ***5.1.2***, ***5.1.1***
 
 
 ### 新分词支持
 
 - [thulac分词ES插件](https://github.com/microbun/elasticsearch-thulac-plugin)， [thulac官网](http://thulac.thunlp.org/)
 
+
+# 目前支持ES6.5.4和ES6.8.8版本
 
 # 如果是ES6.4.0的版本，请使用6.4.0分支最新的代码，也可以下载6.4.1的release
 
@@ -15,6 +17,7 @@ jieba analysis plugin for elasticsearch: ***6.4.0***, ***6.0.0***, ***5.4.0***, 
 
 | 分支      | tag        | elasticsearch版本 | Release Link                                                                                  |
 | ---       | ---        | ---               | ---                                                                                           |
+| 6.4.0     | tag v6.4.1 | v6.4.0            | Download: [v6.5.4](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.5.4) |
 | 6.4.0     | tag v6.4.1 | v6.4.0            | Download: [v6.4.1](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.4.1) |
 | 6.4.0     | tag v6.4.0 | v6.4.0            | Download: [v6.4.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.4.0) |
 | 6.0.0     | tag v6.0.0 | v6.0.0            | Download: [v6.0.1](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.0.1) |
