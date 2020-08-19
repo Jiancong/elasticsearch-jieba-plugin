@@ -35,7 +35,7 @@ jieba analysis plugin for elasticsearch: ***7.7.0***, ***7.4.2***, ***7.3.0***, 
 | 7.4.2     | tag v7.4.2 | v7.4.2            | Download: [v7.4.2](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v7.4.2) |
 | 7.3.0     | tag v7.3.0 | v7.3.0            | Download: [v7.3.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v7.3.0) |
 | 7.0.0     | tag v7.0.0 | v7.0.0            | Download: [v7.0.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v7.0.0) |
-| 6.5.4     | tag v6.5.4 | v6.5.4            | Download: [v7.0.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v7.0.0) |
+| 6.5.4     | tag v6.5.4 | v6.5.4            | Download: [v6.5.4](https://github.com/Jiancong/elasticsearch-jieba-plugin/releases/tag/6.5.4) |
 | 6.4.0     | tag v6.4.1 | v6.4.0            | Download: [v6.4.1](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.4.1) |
 | 6.4.0     | tag v6.4.0 | v6.4.0            | Download: [v6.4.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.4.0) |
 | 6.0.0     | tag v6.0.0 | v6.0.0            | Download: [v6.0.1](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.0.1) |
