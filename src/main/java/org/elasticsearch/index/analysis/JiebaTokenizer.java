@@ -57,7 +57,7 @@ public class JiebaTokenizer extends Tokenizer {
             posIncr = 1;
           } else {
             if (token.endOffset <= lastToken.endOffset) {
-              posIncr = 1;
+              posIncr = 0;
             } else {
               posIncr = 0;
             }

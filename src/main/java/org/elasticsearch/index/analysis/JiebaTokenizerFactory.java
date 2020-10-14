@@ -7,15 +7,16 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.env.Environment;
 import org.elasticsearch.index.IndexSettings;
 
+
 public class JiebaTokenizerFactory extends AbstractTokenizerFactory {
+
+  public static final String TokenizerName = "JiebaTokenizer";
 
   private String segMode;
 
-
-  public JiebaTokenizerFactory(IndexSettings indexSettings, Environment env,
-                               String name, Settings settings) {
-    super(indexSettings, name, settings);
-    WordDictionary.getInstance().init(env.pluginsFile().resolve("jieba/dic"));
+  public JiebaTokenizerFactory(IndexSettings indexSettings, Environment env, Settings settings) {
+    super(indexSettings, settings, TokenizerName);
+    JiebaDict.init(env);
   }
 
   @Override
@@ -37,19 +38,17 @@ public class JiebaTokenizerFactory extends AbstractTokenizerFactory {
                                                                 Settings settings) {
     JiebaTokenizerFactory jiebaTokenizerFactory = new JiebaTokenizerFactory(indexSettings,
         environment,
-        s,
         settings);
     jiebaTokenizerFactory.setSegMode(JiebaSegmenter.SegMode.SEARCH.name());
     return jiebaTokenizerFactory;
   }
 
   public static TokenizerFactory getJiebaIndexTokenizerFactory(IndexSettings indexSettings,
-                                                               Environment environment,
-                                                               String s,
-                                                               Settings settings) {
+                                                              Environment environment,
+                                                              String s,
+                                                              Settings settings) {
     JiebaTokenizerFactory jiebaTokenizerFactory = new JiebaTokenizerFactory(indexSettings,
         environment,
-        s,
         settings);
     jiebaTokenizerFactory.setSegMode(JiebaSegmenter.SegMode.INDEX.name());
     return jiebaTokenizerFactory;
