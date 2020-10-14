@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
-<<<<<<< HEAD
-
 #
 # Copyright 2015 the original author or authors.
 #
@@ -16,8 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-=======
->>>>>>> d0b450c170c2eb17c8f74402f534bf433c3483ab
 
 ##############################################################################
 ##
@@ -47,11 +43,7 @@ APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-<<<<<<< HEAD
 DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
-=======
-DEFAULT_JVM_OPTS=""
->>>>>>> d0b450c170c2eb17c8f74402f534bf433c3483ab
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
@@ -184,21 +176,9 @@ save () {
     for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
     echo " "
 }
-<<<<<<< HEAD
 APP_ARGS=`save "$@"`
 
 # Collect all arguments for the java command, following the shell quoting and substitution rules
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
-=======
-APP_ARGS=$(save "$@")
-
-# Collect all arguments for the java command, following the shell quoting and substitution rules
-eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
-
-# by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
-if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
-  cd "$(dirname "$0")"
-fi
->>>>>>> d0b450c170c2eb17c8f74402f534bf433c3483ab
 
 exec "$JAVACMD" "$@"
